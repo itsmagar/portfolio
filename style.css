@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 95%;
+  margin: 0 auto;
+}
+.main-nav {
+  background-color: yellow;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  border-radius: 12px;
+  border-top: 3px solid rgb(255, 72, 0);
+}
+
+.main-nav .logo {
+  margin-left: 80px;
+  margin-top: 10px;
+  font-size: 40px;
+}
+
+
+.main-nav .nav-item {
+    display: flex;
+    width: 38%;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 112px;
+}
+
+.main-nav .nav-item li {
+    list-style: none;
+}
+
+.main-nav .nav-item li a {
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.main-nav .nav-item li a:hover {
+  color: rgb(0, 0, 0);
+  cursor: crosshair;
+}
+.main-myworld{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.main-myworld .text-myworld{
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+.main-myworld .image-myworld img{
+  width: 300px;
+}
+.icons-myworld{
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: 50px;
+}
+.clients{
+  text-align: center;
+}
+.feedback-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.feedback-main .feedback{
+  display: flex;
+  width: 90%;
+  overflow-x: scroll;
+}
+.feedback-main .feedback div{
+  background-color: aqua;
+  margin: 12px;
+  padding: 32px;
+  border-radius: 15px;
+}
+.feedback-main .feedback div p{
+  width: 100px;
+}
+
+
+/* form selection start */
+.form-container{
+  display: flex;
+  justify-content: center;
+}
+form div{
+  margin-top: 16px;
+}
+form .input{
+  padding: 2px;
+  width: 400px;
+  margin-top: 12px;
+  border: 2px solid #000000;
+  display: block;
+  border-radius: 8px;
+}
+.btn{
+  background-color: red;
+  color: white;
+  padding: 12px;
+  font-size: 32px;
+  margin-left: 290px;
+}
+.error{
+  color: red;
+}
+.btn:hover{
+  cursor: pointer;
+  background-color: #5e1675;
+}
+/* form selection end */
